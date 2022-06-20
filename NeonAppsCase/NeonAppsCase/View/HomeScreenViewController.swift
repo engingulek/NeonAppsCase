@@ -19,7 +19,12 @@ class HomeScreenViewController: UIViewController{
         productListCollectionView.delegate = self
         setupUI()
         data()
+        
   
+    }
+    
+    override func viewDidLayoutSubviews() {
+        self.tabBarController?.tabBar.isHidden = false
     }
     
    
@@ -33,6 +38,7 @@ class HomeScreenViewController: UIViewController{
        design.minimumLineSpacing = 20
        design.scrollDirection = .vertical
        self.productListCollectionView.collectionViewLayout = design
+       
     }
     
     
@@ -48,10 +54,7 @@ class HomeScreenViewController: UIViewController{
         productList.append(productFour)
         
         self.productListViewModel.productList = productList.map(ProductViewModel.init)
-        DispatchQueue.main.async {
-            self.productListCollectionView.reloadData()
-        }
-        
+       
     }
 }
 
@@ -74,6 +77,9 @@ extension HomeScreenViewController : UICollectionViewDataSource, UICollectionVie
         cell.layer.borderWidth = 0.5
         
         return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    performSegue(withIdentifier: "toDetails", sender: nil)
     }
     
 }

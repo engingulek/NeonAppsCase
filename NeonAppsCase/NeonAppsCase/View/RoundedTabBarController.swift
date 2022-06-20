@@ -32,6 +32,11 @@ class RoundedTabBarController: UITabBarController{
 
         self.tabBar.itemWidth = 65.0
         self.tabBar.itemPositioning = .centered
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+       
     }
     
 }

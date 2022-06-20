@@ -11,6 +11,7 @@
 		7D996ACE285FCDD800B7668B /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D996ACD285FCDD800B7668B /* ProductCollectionViewCell.swift */; };
 		7D996AD0285FD9A300B7668B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D996ACF285FD9A300B7668B /* Product.swift */; };
 		7D996AD2285FDC8800B7668B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D996AD1285FDC8800B7668B /* ProductListViewModel.swift */; };
+		7D996AD428609DE800B7668B /* ShoesDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D996AD328609DE800B7668B /* ShoesDetailScreen.swift */; };
 		7DEF4F9D285F4F220026DD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF4F9C285F4F220026DD8D /* AppDelegate.swift */; };
 		7DEF4F9F285F4F220026DD8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF4F9E285F4F220026DD8D /* SceneDelegate.swift */; };
 		7DEF4FA4285F4F220026DD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEF4FA2285F4F220026DD8D /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		7D996ACD285FCDD800B7668B /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		7D996ACF285FD9A300B7668B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7D996AD1285FDC8800B7668B /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		7D996AD328609DE800B7668B /* ShoesDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesDetailScreen.swift; sourceTree = "<group>"; };
 		7DEF4F99285F4F220026DD8D /* NeonAppsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonAppsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEF4F9C285F4F220026DD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DEF4F9E285F4F220026DD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7DEF4FB3285F502B0026DD8D /* OnboardingScreenViewController.swift */,
 				7DEF4FB5285F66B60026DD8D /* HomeScreenViewController.swift */,
 				7D996AC8285F7C2200B7668B /* RoundedTabBarController.swift */,
+				7D996AD328609DE800B7668B /* ShoesDetailScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DEF4F9D285F4F220026DD8D /* AppDelegate.swift in Sources */,
+				7D996AD428609DE800B7668B /* ShoesDetailScreen.swift in Sources */,
 				7DEF4FB6285F66B60026DD8D /* HomeScreenViewController.swift in Sources */,
 				7D996AC9285F7C2200B7668B /* RoundedTabBarController.swift in Sources */,
 				7DEF4FB4285F502B0026DD8D /* OnboardingScreenViewController.swift in Sources */,
